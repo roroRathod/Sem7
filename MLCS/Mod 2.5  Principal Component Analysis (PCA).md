@@ -18,21 +18,28 @@ graph LR
 | Applications         | Visualization, noise reduction, feature extraction, overfitting prevention |
 
 ## How PCA Works: Step-by-Step
-1. **Standardize the Data**
-    - Scale features to have mean 0 and standard deviation 1 so all contribute equally.
-    - Formula: Z=X−μσZ = \frac{X - \mu}{\sigma}Z=σX−μ
+1. **Standardize the Data**: Scale features to have mean 0 and standard deviation 1 so all contribute equally.
+$$
+Z = \frac{X - \mu}{\sigma}
+$$
 2. **Compute Covariance Matrix**
     - Measures how features vary together.
-    - Covariance matrix CCC for data matrix XXX: C=1n−1XTXC = \frac{1}{n-1} X^T XC=n−11XTX
+    - Covariance matrix C for data matrix X
+    $$
+C = \frac{1}{n-1} X^T X
+$$
+
 3. **Calculate Eigenvalues and Eigenvectors**
     - Eigenvectors: directions of maximum variance (principal components)
     - Eigenvalues: amount of variance captured by each component
 4. **Sort Principal Components**
     - Rank components by eigenvalues (variance explained)
-    - Select top kkk components that capture most variance
+    - Select top k components that capture most variance
 5. **Transform Data**
     - Project original data onto new axes (principal components)
-    - Reduced dataset: XPCA=X⋅WkX_{\text{PCA}} = X \cdot W_kXPCA=X⋅Wk, where WkW_kWk is matrix of top kkk eigenvectors
+	    - Reduced dataset: $$
+X_{\text{PCA}} = X \cdot W_k
+$$where $$W_k$$  is matrix of top k eigenvectors
 
 ## PCA Algorithm Example
 ```python
