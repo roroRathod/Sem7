@@ -61,7 +61,7 @@ graph LR
     b. **Continuous Improvement**: Ongoing process optimization and learning.  
     c. **Flow Optimization**: Ensure smooth, uninterrupted progress of work.
 ```mermaid 
-graph LR
+graph 
     A[Define Value] --> B[Map Value Stream]
     B --> C[Create Flow]
     C --> D[Establish Pull]
