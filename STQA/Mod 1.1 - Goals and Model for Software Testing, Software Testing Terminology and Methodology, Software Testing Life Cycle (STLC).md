@@ -267,19 +267,6 @@ graph TD
     Validation_Activities --> Integration_Test
     Validation_Activities --> System_Test
     Validation_Activities --> Acceptance_Test
-
-    style Req fill:#ffe0b2,stroke:#333,stroke-width:2px
-    style HLD fill:#ffe0b2,stroke:#333,stroke-width:2px
-    style LLD fill:#ffe0b2,stroke:#333,stroke-width:2px
-    style Coding fill:#ffe0b2,stroke:#333,stroke-width:2px
-
-    style Unit_Test fill:#c8e6c9,stroke:#333,stroke-width:2px
-    style Integration_Test fill:#c8e6c9,stroke:#333,stroke-width:2px
-    style System_Test fill:#c8e6c9,stroke:#333,stroke-width:2px
-    style Acceptance_Test fill:#c8e6c9,stroke:#333,stroke-width:2px
-
-    style Verification_Activities fill:#e3f2fd,stroke:#333,stroke-width:2px
-    style Validation_Activities fill:#e3f2fd,stroke:#333,stroke-width:2px
 ```
 
 #### 3.3.4. Diagram: Expanded V-Testing Model with V&V Activities
@@ -321,31 +308,6 @@ graph TD
     C -- prepares --> H
     D -- prepares --> H
     F --> I
-
-    %% Styling (Development)
-    style A fill:#DDEBF7,stroke:#36C,stroke-width:2px
-    style B fill:#DDEBF7,stroke:#36C,stroke-width:2px
-    style C fill:#DDEBF7,stroke:#36C,stroke-width:2px
-    style D fill:#DDEBF7,stroke:#36C,stroke-width:2px
-    style E fill:#DDEBF7,stroke:#36C,stroke-width:2px
-    style F fill:#DDEBF7,stroke:#36C,stroke-width:2px
-
-    %% Styling (Testing)
-    style G fill:#E5FFCC,stroke:#6C3,stroke-width:2px
-    style H fill:#E5FFCC,stroke:#6C3,stroke-width:2px
-    style I fill:#E5FFCC,stroke:#6C3,stroke-width:2px
-
-    %% Styling (Verification)
-    style V1 fill:#FFF2CC,stroke:#F70,stroke-width:2px
-    style V2 fill:#FFF2CC,stroke:#F70,stroke-width:2px
-    style V3 fill:#FFF2CC,stroke:#F70,stroke-width:2px
-
-    %% Styling (Validation)
-    style Val1 fill:#F2DCFF,stroke:#93F,stroke-width:2px
-    style Val2 fill:#F2DCFF,stroke:#93F,stroke-width:2px
-    style Val3 fill:#F2DCFF,stroke:#93F,stroke-width:2px
-    style Val4 fill:#F2DCFF,stroke:#93F,stroke-width:2px
-
 ```
 
 #### 3.3.5. Testing Tactics
@@ -417,27 +379,6 @@ graph TD
     C -- prepares test cases for --> H
     D -- prepares test cases for --> H
     F --> J
-
-    style A fill:#DDEBF7,stroke:#333,stroke-width:1px
-    style B fill:#DDEBF7,stroke:#333,stroke-width:1px
-    style C fill:#DDEBF7,stroke:#333,stroke-width:1px
-    style D fill:#DDEBF7,stroke:#333,stroke-width:1px
-    style E fill:#DDEBF7,stroke:#333,stroke-width:1px
-    style F fill:#DDEBF7,stroke:#333,stroke-width:1px
-
-    style G fill:#E2EFDA,stroke:#333,stroke-width:1px
-    style H fill:#E2EFDA,stroke:#333,stroke-width:1px
-    style I fill:#E2EFDA,stroke:#333,stroke-width:1px
-    style J fill:#E2EFDA,stroke:#333,stroke-width:1px
-
-    style V1 fill:#FFF2CC,stroke:#333,stroke-width:1px
-    style V2 fill:#FFF2CC,stroke:#333,stroke-width:1px
-    style V3 fill:#FFF2CC,stroke:#333,stroke-width:1px
-
-    style Val1 fill:#DEEAF6,stroke:#333,stroke-width:1px
-    style Val2 fill:#DEEAF6,stroke:#333,stroke-width:1px
-    style Val3 fill:#DEEAF6,stroke:#333,stroke-width:1px
-    style Val4 fill:#DEEAF6,stroke:#333,stroke-width:1px
 ```
 
 ## 4. Software Testing Life Cycle (STLC)
@@ -577,12 +518,4 @@ graph TD
     D -.-> D3
     D -.-> D4
     D -.-> D5
-
-    %% Styling nodes
-    style A fill:#D4E6F1,stroke:#3498DB,stroke-width:2px
-    style B fill:#E8F8F5,stroke:#2ECC71,stroke-width:2px
-    style C fill:#FCF3CF,stroke:#F4D03F,stroke-width:2px
-    style D fill:#F5EEF8,stroke:#9B59B6,stroke-width:2px
-    style E fill:#D0ECE7,stroke:#1ABC9C,stroke-width:2px
-
 ```
