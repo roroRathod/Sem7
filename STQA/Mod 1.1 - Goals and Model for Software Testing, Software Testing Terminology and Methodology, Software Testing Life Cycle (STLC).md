@@ -124,20 +124,6 @@ graph TD
 
     Expected_Results -- If achieved --> Success
     Unexpected_Results -- If encountered --> Modify(Modify Software, Bug Model, or Testing Methodology)
-
-    style System fill:#f9f,stroke:#333,stroke-width:2px
-    style Software fill:#bbf,stroke:#333,stroke-width:2px
-    style Developer fill:#afa,stroke:#333,stroke-width:2px
-    style Tester fill:#fcf,stroke:#333,stroke-width:2px
-    style Bug_Model fill:#ccf,stroke:#333,stroke-width:2px
-    style Testing_Methodology fill:#ffc,stroke:#333,stroke-width:2px
-    style Testing fill:#e0e0e0,stroke:#333,stroke-width:2px
-    style Results fill:#d0d0d0,stroke:#333,stroke-width:2px
-    style Expected_Results fill:#9c9,stroke:#333,stroke-width:2px
-    style Unexpected_Results fill:#f99,stroke:#333,stroke-width:2px
-    style Nature_of_Bugs_and_Psychology_of_Testing fill:#f0f0f0,stroke:#333,stroke-width:2px
-    style Success fill:#0f0,stroke:#333,stroke-width:2px
-    style Modify fill:#f80,stroke:#333,stroke-width:2px
 ```
 
 ## 3. Software Testing Terminology and Methodology
