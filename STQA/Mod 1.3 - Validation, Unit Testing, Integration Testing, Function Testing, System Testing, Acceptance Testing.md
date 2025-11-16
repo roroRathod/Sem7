@@ -59,13 +59,6 @@ graph TD
         ACT --> INST[Installation Testing]
     end
 
-    %% Styling Validation nodes
-    style UT fill:#f9f,stroke:#333,stroke-width:2px
-    style INT fill:#f9f,stroke:#333,stroke-width:2px
-    style ST fill:#f9f,stroke:#333,stroke-width:2px
-    style ACT fill:#f9f,stroke:#333,stroke-width:2px
-    style INST fill:#f9f,stroke:#333,stroke-width:2px
-
     %% Linking Test Plans to Validation
     UP --> UT
     FP --> INT
