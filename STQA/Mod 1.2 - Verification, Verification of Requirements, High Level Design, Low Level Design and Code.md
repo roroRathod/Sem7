@@ -60,18 +60,6 @@ graph TB
     ST:::right
     AT:::right
     IT:::right
-
-    %% Styles
-    classDef left fill:#D2B4DE,stroke:#8E44AD,stroke-width:2px
-    classDef right fill:#FAD7A0,stroke:#F39C12,stroke-width:2px
-    classDef bottom fill:#AED6F1,stroke:#3498DB,stroke-width:2px
-
-    style AP fill:#A9DFBF,stroke:#2ECC71,stroke-width:2px
-    style SP fill:#A9DFBF,stroke:#2ECC71,stroke-width:2px
-    style FTP fill:#A9DFBF,stroke:#2ECC71,stroke-width:2px
-    style ITP fill:#A9DFBF,stroke:#2ECC71,stroke-width:2px
-    style UTP fill:#A9DFBF,stroke:#2ECC71,stroke-width:2px
-
 ```
 ---
 ### **2. Verification of Requirements**
@@ -313,24 +301,4 @@ graph LR
         FunctionalDesign -- maps to --> InternalDesignCode[Internal Design/Code];
         InternalDesignCode -- links to --> TestCases[Test Cases];
     end
-
-    style Req fill:#F0E68C,stroke:#B8860B
-    style HLD fill:#F0E68C,stroke:#B8860B
-    style LLD fill:#F0E68C,stroke:#B8860B
-    style Code fill:#F0E68C,stroke:#B8860B
-
-    style Requirement-Verification fill:#AFEEEE,stroke:#20B2AA
-    style HLD-Verification fill:#AFEEEE,stroke:#20B2AA
-    style LLD-Verification fill:#AFEEEE,stroke:#20B2AA
-    style Code-Verification fill:#AFEEEE,stroke:#20B2AA
-
-    style Acceptance_Test_Plan fill:#D8BFD8,stroke:#8A2BE2
-    style System_Test_Plan fill:#D8BFD8,stroke:#8A2BE2
-    style Function_Test_Plan fill:#D8BFD8,stroke:#8A2BE2
-    style Integration_Test_Plan fill:#D8BFD8,stroke:#8A2BE2
-    style Unit_Test_Plan fill:#D8BFD8,stroke:#8A2BE2
-
-    style FunctionalDesign fill:#ADD8E6,stroke:#4682B4
-    style InternalDesignCode fill:#ADD8E6,stroke:#4682B4
-    style TestCases fill:#ADD8E6,stroke:#4682B4
 ```
